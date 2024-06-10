@@ -20,7 +20,7 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
-  
+  @Smoke
   Scenario: Printing from class file
     Given For Demo purpose
     When Show integration
