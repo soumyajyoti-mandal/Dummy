@@ -7,8 +7,8 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "Feature",
-		glue = {"test/stepdef"},
+		features = "src/test/resources/Features",
+		glue = {"src/test/java/JenkinsMavenIntDemoTest"},
 		plugin = {"pretty", "json:target/report.json"},
 		tags= "@Smoke"
 //		,dryRun = true
